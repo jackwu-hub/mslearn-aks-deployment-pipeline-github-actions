@@ -12,7 +12,7 @@ spec:
         app: contoso-website
     spec:
       containers:
-        - image: !IMAGE!
+        - image: tailspinspacegame24592.azurecr.io/contoso-website
           name: contoso-website
           resources:
             requests:
