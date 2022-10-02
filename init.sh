@@ -1,8 +1,8 @@
 #!/bin/bash
 echo "Defining variables..."
 export RESOURCE_GROUP_NAME=tailspin-space-game-rg
-export  AKS_NAME=tailspinspacegame-24592
-export  ACR_NAME=tailspinspacegame24592.azurecr.io
+export  AKS_NAME=tailspinspacegame-27096
+export  ACR_NAME=tailspinspacegame27096.azurecr.io
 echo "Obtaining credentials..."
 az aks get-credentials -n $AKS_NAME -g $RESOURCE_GROUP_NAME
 
