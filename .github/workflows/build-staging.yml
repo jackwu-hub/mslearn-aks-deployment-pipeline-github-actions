@@ -44,7 +44,7 @@ jobs:
         uses: Azure/aks-set-context@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
-          resource-group: tailspinspacegame27096
+          resource-group: tailspin-space-game-rg
           cluster-name: tailspinspacegame-27096
           
       # ... File omitted
