@@ -1,6 +1,6 @@
 image:
   registry: tailspinspacegame27096.azurecr.io 
   name: contoso-website
-  tag: v2.0.0
+  tag: latest
 dns:
   name: 2509222d77cb4c38a6ed.eastus.aksapp.io
